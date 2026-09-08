@@ -1,0 +1,30 @@
+# Node.js dependencies and local caches
+node_modules/
+.npm/
+
+# Playwright reports and generated test artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+coverage/
+
+# Logs
+*.log
+
+# Local environment files (keep safe templates trackable)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# macOS and editor temporary files
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+
+# ignore 
+example/

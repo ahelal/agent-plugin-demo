@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ui-quality-coach",
+  "version": "1.0.0",
+  "description": "A live-demo UI reviewer: a repeatable smoke-test skill, a focused Copilot agent, and Playwright browser tools.",
+  "keywords": ["demo", "playwright", "ui", "testing"]
+}

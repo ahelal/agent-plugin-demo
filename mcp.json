@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "ui-browser": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@playwright/mcp@0.0.80",
+        "--browser", "chrome",
+        "--isolated",
+        "--block-service-workers",
+        "--allowed-origins", "http://127.0.0.1:4173",
+        "--viewport-size", "1280x800"
+      ]
+    }
+  }
+}
