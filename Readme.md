@@ -36,18 +36,3 @@ Once this repository is pushed to a Git host:
 3. Start a new chat and select **UI Reviewer**. Confirm **ui-browser** is available under **MCP: List Servers**.
 
 **Local rehearsal, before publishing:** in User Settings (JSON), add the absolute path of this repository to the `chat.pluginLocations` object with value `true`. Reload VS Code if needed. Register the **repository root**, not `example/`; use either local registration or source installation, not both.
-
-### Run the demo
-
-1. Open a local checkout of this repository in VS Code.
-2. From the repository root, run `npm --prefix example start`. No npm install or build is needed to serve the app.
-3. With **UI Reviewer** selected, run:
-
-   `/ui-quality-coach:ui-smoke-test http://127.0.0.1:4173`
-
-4. Watch the browser review the task tracker and report two deliberate UI bugs.
-5. Select **Fix findings** to hand off to the coding agent, then rerun the review.
-
-Use **Reset demo** to restore sample data. The review is a functional UI check, not a security audit; browser isolation is not a security boundary.
-
-[Optional tests, presenter notes, and troubleshooting →](example/Readme.md)
