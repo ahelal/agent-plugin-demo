@@ -7,7 +7,7 @@
       "args": [
         "--yes",
         "@playwright/mcp@0.0.80",
-        "--browser", "chrome",
+        "--browser", "msedge",
         "--isolated",
         "--block-service-workers",
         "--allowed-origins", "http://127.0.0.1:4173",
